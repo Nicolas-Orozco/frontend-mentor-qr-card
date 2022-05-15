@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-blue-100">App App</h1>
+    <div className="max-w-xs bg-white flex-1 font-outfit m-6 p-2 rounded-2xl shadow-sm">
+      <Header />
     </div>
   );
 }
